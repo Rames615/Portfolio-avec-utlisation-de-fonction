@@ -1,0 +1,58 @@
+
+/********* section PROJETS *************/
+
+#projets {
+    display: flex;
+    flex-direction: column;
+    background-color: #251852;
+    margin-top: 2rem;
+}
+
+.card-projet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.projet {
+    flex: 2;
+    padding-right: 20px;
+}
+
+.projet h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.projet p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+.container_img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+/* Animations spécifiques */
+
+

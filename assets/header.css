@@ -1,0 +1,19 @@
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #251852;
+    color: #cec9c9;
+    text-align: center;
+    height: 80vh;
+    width: 100%;
+}
+
+
+header p{
+    font-size: 2.5rem;
+
+}
+

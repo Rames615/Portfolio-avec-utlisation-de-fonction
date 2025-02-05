@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- screen color mode (dark mod / light mod frome desktop or navigator) -->
+    <meta name="color-scheme" content="dark light" />
+    <!-- screen color mode (dark mod / light mod frome desktop or navigator) -->
+    <meta name="theme-color" content="#000000" />
+    <!-- font Awsome 6.0 -->
+    <script
+      src="https://kit.fontawesome.com/7b3b6f1f01.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="stylesheet" href="/assets/barnav.css" />
+    <link rel="stylesheet" href="/assets/header.css" />
+    <link rel="stylesheet" href="/assets/skill.css" />
+    <link rel="stylesheet" href="/assets/projet.css" />
+    <link rel="stylesheet" href="/assets/contact.css" />
+
+    <title>Portfolio de developpeur</title>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#hero">Accueil</a></li>
+        <li><a href="#competences">Skillz</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <header id="hero">
+      <h1>Bienvenu sur mon site</h1>
+      <blockquote>
+        <p>il est temps de commencer à apprendre les fonctions en JavaScript</p>
+      </blockquote>
+    </header>
+    <main>
+      <section>
+        <h2>skillz</h2>
+
+        <div id="competences">
+          <div class="card">
+            <h3>Front</h3>
+            <p>
+              Description de la compétence Front. Cette compétence inclut la
+              maîtrise de HTML, CSS, et JavaScript pour créer des interfaces
+              utilisateur interactives et réactives. Elle permet également de
+              développer des applications web dynamiques et performantes telles
+              que des sites de commerce électronique, des réseaux sociaux, et
+              des plateformes de gestion de contenu.
+            </p>
+            <div class="container_img">
+              <img
+                src="https://picsum.photos/1200?random=52"
+                alt="Random Image 2"
+              />
+            </div>
+          </div>
+          <div class="card">
+            <div class="container_img">
+              <img
+                src="https://picsum.photos/1200?random=50"
+                alt="Random Image 1"
+              />
+            </div>
+            <h3>Back</h3>
+            <p>
+              Description de la compétence Back. Cette compétence tend à inclure
+              la gestion des bases de données, la création et la maintenance des
+              serveurs, ainsi que le développement d'API et de services web.
+              Elle nécessite une bonne compréhension des langages de
+              programmation côté serveur tels que PHP, Python, Ruby, et Node.js,
+              ainsi que des frameworks associés.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Compétence DevOps</h3>
+            <p>
+              Description de la compétence DevOps. Cette compétence inclut la
+              gestion de l'infrastructure informatique, l'automatisation des
+              processus de déploiement, la surveillance des systèmes, et la
+              collaboration entre les équipes de développement et d'exploitation
+              pour améliorer l'efficacité et la fiabilité des livraisons de
+              logiciels.
+            </p>
+            <div class="container_img">
+              <img
+                src="https://picsum.photos/1200?random=152"
+                alt="Random Image 2"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2>Projets</h2>
+        <div id="projets">
+          <div class="card-projet">
+            <div class="projet">
+              <h3>e-commerce</h3>
+              <p>
+                Description du projet 1. Ce projet consiste à créer un site web
+                pour une entreprise fictive de vente de produits en ligne. Il
+                inclut des fonctionnalités telles que la recherche de produits,
+                la gestion de panier, et le paiement en ligne. Il est développé
+                en utilisant les technologies HTML, CSS, et JavaScript, ainsi
+                que le framework Bootstrap pour le design responsive.
+              </p>
+            </div>
+            <div class="container_img">
+              <img
+                src="https://picsum.photos/1200?random=12"
+                alt="Random Image 1"
+              />
+            </div>
+          </div>
+          <div class="card-projet">
+            <div class="container_img">
+              <img
+                src="https://picsum.photos/1200?random=22"
+                alt="Random Image 2"
+              />
+            </div>
+            <div class="projet">
+              <h3>Club de Natation "Les Lombrics Ailés</h3>
+              <p>
+                Description du projet 2. Ce projet consiste à créer une
+                application web pour une association caritative qui collecte des
+                dons pour des causes humanitaires. Il inclut des fonctionnalités
+                telles que la gestion des dons, la publication d'événements, et
+                la communication avec les donateurs. Il est développé en
+                utilisant les technologies HTML, CSS, et JavaScript, ainsi que
+                le framework React pour la création d'interfaces utilisateur
+                interactives.
+              </p>
+            </div>
+          </div>
+          <div class="card-projet">
+            <div class="projet">
+              <h3>Dashboarder Ascendant Resquilleur</h3>
+              <p>
+                Description du projet 3. Ce projet consiste à créer un tableau
+                de bord pour une entreprise de gestion de projets. Il inclut des
+                fonctionnalités telles que la visualisation des tâches, la
+                planification des ressources, et le suivi des performances. Il
+                est développé en utilisant les technologies HTML, CSS, et
+                JavaScript, ainsi que le framework Vue.js pour la création
+                d'interfaces utilisateur réactives.
+              </p>
+            </div>
+            <div class="container_img">
+              <img
+                src="https://picsum.photos/1200?random=32"
+                alt="Random Image 3"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2 id="contact">Contact</h2>
+        <form action="index.php" method="post">
+          <div class="form-group">
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" required />
+            <label for="prénom">Prénom</label>
+            <input type="text" id="prénom" name="prénom" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Envoyer</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 - Tous droits réservés</p>
+    </footer>
+    <script src="assets/app.js"></script>
+  </body>
+</html>
