@@ -2,7 +2,7 @@
 form {
     max-width: 40%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 2rem;
     background-color: #251852;
     border-radius: 10px;
     box-shadow: 0 4px 6px #333b;
@@ -18,19 +18,24 @@ label {
     
 }
 
+form .form-group {
+    margin-bottom: 1rem;
+  }
+
 input, textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1rem;
+        width: 100%;
+        padding: 0.8rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1rem;
     background-color: #bad3e0;
     margin-bottom:3rem;
 }
 
 button {
-    width: 20%;
-    padding: 10px;
+    display: block;
+    width: 100%;
+    padding: 0.8rem 1.5rem;
     background-color: #007bff;
     color: white;
     border: none;
@@ -54,3 +59,16 @@ footer{
     flex-direction: column;
     justify-content: center;
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  section {
+    padding: 1rem;
+  }
+}
+  

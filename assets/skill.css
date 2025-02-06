@@ -2,7 +2,9 @@ section {
     background-color: #fff;
     width: 100vw;
     text-align: center;
-    min-width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 2rem;
     justify-content: space-around;
 
 }
@@ -20,7 +22,7 @@ section h2 {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 1.5rem;
     margin-top: 2rem;
     background-color: #251852;
 }
@@ -51,3 +53,5 @@ section h2 {
     filter: invert(0.9);
     transition: 1s;
   }
+
+
