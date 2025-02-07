@@ -5,7 +5,8 @@
     display: flex;
     flex-direction: column;
     background-color: #251852;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
+    width: 100%;
 }
 
 .card-projet {
@@ -15,7 +16,7 @@
     background-color: #f9f9f9;
     padding: 1rem;
     border-radius: 10px;
-    max-width: 1200px;
+    max-width: 80%;
     margin: 0 auto;
     margin-top: 3rem;
     margin-bottom: 1rem;
@@ -51,7 +52,10 @@
     border-radius: 10px;
 }
 
-
+.card-projet:hover{
+    transition-duration: 3s, 1s;
+    transition-property: margin-right;
+}
 
 /* Animations spécifiques */
 

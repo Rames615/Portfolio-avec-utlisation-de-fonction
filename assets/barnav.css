@@ -16,15 +16,15 @@ body {
 
 
 li,a {
-list-style: none;
 color: #000;
 }
 
-a:hover{
-    background-color: #7d68c6;
-    transform: scale(1.1);
-    transition: 1s;
+li:hover{
+  transform: scale(1.1);
+  background: #78c9dd;
+  transition: 0.5s;
 }
+
 
 nav ul {
     list-style: none;
@@ -41,6 +41,10 @@ nav{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 
